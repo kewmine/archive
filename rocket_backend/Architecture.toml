@@ -1,0 +1,23 @@
+[default]
+address = "127.0.0.1"
+port = 8080
+
+#misc
+ident = "etckro"
+cli_colors = true
+
+# i plan to not use env vars
+[database_links]
+conn_uri = "mongodb://localhost:27017"
+db_name = "pilink"
+db_coll = "testtest"
+short_id = "link_short_id"
+long_uri = "link_long_uri"
+
+[required]
+domain = "pil.ink"
+
+[template-content]
+project_name = "pilink"
+description = "cool fingerprint less services ^_^"
+author = "kew"

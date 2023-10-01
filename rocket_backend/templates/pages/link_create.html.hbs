@@ -1,0 +1,12 @@
+{{#*inline "page"}}
+<body style="background-color: #2b2b2b; color: white;">
+    <div>
+        this is the page to create link
+        <form action="/link/create" method="post">
+            <input type="text" name="link_long_uri" placeholder="enter your link">
+            <input type="submit" value="create">
+        </form>
+    </div>
+</body>
+{{/inline}}
+{{> layouts/default }}
